@@ -1,0 +1,134 @@
+/*  #caixa{
+    width: 300px;
+    height: 300px;
+    background: #b9c941;
+    padding: 50px;
+    box-sizing: border-box;
+    /* -moz-border-radius: 10px 50px 80px 100px;
+    border-radius: 10px 50px 80px 100px;
+    margin: 10px; 
+}
+#caixa2{
+    width: 300px;
+    height: 300px;
+    background: #b9c941;
+    
+    /* -moz-border-radius: 10px 50px 80px 100px;
+    border-radius: 10px 50px 80px 100px;
+    margin: 10px; }*/
+
+/* 
+
+/* SOMBRAS
+***********************************/
+/*
+#caixa{
+    width: 300px;
+    height: 300px;
+    padding: 8px;
+    margin: 20px;
+    background:#009670;
+    box-shadow:20px 20px 5px rgba(0,0,0,0.2) ;
+   
+}
+#caixa h1{
+    color: white ;
+    text-shadow:9px 9px 5px rgba(0,0,0,0.6) ;
+    
+} */
+/*ANIMACOES
+*********************************/
+
+/*
+@keyframes animacao-caixa{
+   from {
+    background: red;
+    border-radius: 0px;
+    top: 0;
+    left: 0;
+   } 
+   to{
+    background: yellow;
+    border-radius: 300px;
+    top: 200px;
+    left: 200px;
+   } 
+}
+
+#caixa{
+    width: 300px;
+    height: 300px;
+    background: red;
+    position: relative;
+    animation-name: animacao-caixa;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+} */
+
+/* TRANCISOES
+****************************** 
+
+#caixa{
+    width: 300px;
+    height: 300px;
+    background: orange; 
+
+}
+
+#caixa:hover{
+    width: 400px;
+    background: yellow;
+    transition: all 3s ;
+    
+    
+    
+   
+
+}
+
+header{
+    border: 1px solid #ccc;
+    background: #f2f2f2 ;
+    padding: 10px;
+
+}
+nav{
+    border: 1px solid red;
+}
+
+footer{
+    background: #ccc;
+}*/
+
+#conteudo{
+    background: #dcdcdc;
+    height: 400px;
+    display: flex;
+/*
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: baseline;*/
+}
+.item {
+    background: white;
+    border: 1px solid gray;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+
+}
+.ordem1{
+    order: 1;
+}
+.ordem2{
+    order: 2;
+}
+.ordem3{
+    order: 3;
+}
+.ordem4{
+    order: 4;
+}
